@@ -4,14 +4,14 @@ import xml.etree.ElementTree as ET
 import tkinter as tk
 from tkinter import filedialog, messagebox, ttk
 from datetime import datetime, timedelta
-import tkinterdnd2 as tkdnd  # 需要先安裝：pip install tkinterdnd2
+import tkinterdnd2 as tkdnd  
 
 class DragDropApp(tkdnd.Tk):
     def __init__(self):
         super().__init__()
         self.title("PubMed Disease-Related Article Query Tool")
         self.current_file = None
-        self.df = None  # 新增 DataFrame 變數
+        self.df = None  #  DataFrame 
         self.setup_ui()
         
     def fetch_pmids_with_term(self, gene, term, date_ranges):
@@ -298,7 +298,7 @@ class DragDropApp(tkdnd.Tk):
         except Exception as e:
             messagebox.showerror("Error", f"Unable to save results: {e}")
 
-# 主程式啟動
+# main
 if __name__ == "__main__":
     app = DragDropApp()
     app.mainloop()
