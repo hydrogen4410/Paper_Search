@@ -17,7 +17,7 @@ PubMed 疾病相關文章查詢工具是一款基於 Python 開發的桌面應�
 4. **結果保存**：將查詢結果（包括文章數量和部分 PMID）保存為 Excel 文件。
 5. **進度顯示**：實時顯示查詢進度，方便用戶掌握執行情況。
 6. **測試模式**：提供測試模式，允許用戶在查詢前限制處理的基因數量（例如僅處理前 10 行）。
-
+7. **時間範圍查詢**: 提供年份選擇功能，可選擇("無限制"、"近3年"、"近5年"、"近10年")發表文獻，支援多重時間範圍查詢
 ---
 
 ## **使用說明**
@@ -99,7 +99,7 @@ PubMed 疾病相關文章查詢工具是一款基於 Python 開發的桌面應�
 ---
 
 ## **版本資訊**
-- **版本**：1.0
+- **版本**：2.0.0
 - **開發者**：陳稟靝
 - **發布日期**：2025 年 2 月
 
@@ -125,7 +125,7 @@ This tool is ideal for researchers who need to perform large-scale literature se
 4. **Result Saving**: Saves query results (including article counts and partial PMIDs) to an Excel file.
 5. **Progress Display**: Displays real-time query progress, helping users monitor the execution status.
 6. **Test Mode**: Provides a test mode that allows users to limit the number of genes processed before the query (e.g., only processing the first 10 rows).
-
+7. **Time Range Query**: Implements publication year filtering functionality, enabling users to select literature published within specified timeframes ("No Limit", "Last 3 Years", "Last 5 Years", "Last 10 Years"), with support for multiple time range selections
 ---
 
 ## **Instructions for Use**
@@ -207,7 +207,7 @@ If you want to test the query with a limited number of genes:
 ---
 
 ## **Version Information**
-- **Version**: 1.0
+- **Version**: 2.0.0
 - **Developer**: Ben
 - **Release Date**: February 2025
 
