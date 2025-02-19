@@ -2,11 +2,11 @@
 
 
 a = Analysis(
-    ['search.py'],
+    ['D:\\PAPA\\search.py'],
     pathex=[],
     binaries=[],
-    datas=[],
-    hiddenimports=[],
+    datas=[('C:\\Users\\User\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\tkinterdnd2', 'tkinterdnd2')],
+    hiddenimports=['tkinterdnd2'],
     hookspath=[],
     hooksconfig={},
     runtime_hooks=[],
